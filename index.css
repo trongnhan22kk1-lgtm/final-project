@@ -1,0 +1,39 @@
+#menu{
+    width: 345px;
+    height: 2310px;
+}
+#menu>div{
+    width: 299px;
+    height: 64px;
+}
+#interact{
+    width: 1180px;
+    height: 2310px;
+}
+#heading{
+    width: 207px;
+    height: 54px;
+    font-size: 36px;
+}
+#search{
+    width: 350px;
+    height: 60px;
+}
+#interact1{
+    width: 1080px;
+    height: 172px;
+}
+#interact1>div{
+    width: 182px;
+    height: 81px;
+}
+#interact1>p{
+    font-size: 18px;
+}
+#amount{
+    font-size: 36px;
+}
+#user_information{
+    width: 395px;
+    height: 2310px;
+}

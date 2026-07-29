@@ -4,65 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body style="display: flex; justify-content: space-between;">
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; align-items: end;" class="bg-[purple]" id="menu">
     <!-- /menu -->
-        <div>
-            <a>
+        <div style="align-self: center;" class="text-[white]">
+            <a href="./index.html">
                 <img src=""/>
                 <p>Akademi</p>
             </a>
         </div>
-        <div>
-            <a>
+        <div class="bg-[white] text-[purple]">
+            <a href="./index.html">
                 <p>Dashboard</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
-            <a>
+        <div class="text-[white]"> 
+            <a href="./student.html">
                 <p>Students</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
-            <a>
+        <div class="text-[white]">
+            <a href="./teacher.html">
                 <p>Teacher</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
-            <a>
+        <div class="text-[white]">
+            <a href="./event.html">
                 <p>Event</p>
                 <img src="">
             </a>
         </div>
-        <div>
-            <a>
+        <div class="text-[white]">
+            <a href="./finance.html">
                 <p>Finance</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
-            <a>
+        <div class="text-[white]">
+            <a href="./food.html">
                 <p>Food</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
-            <a>
+        <div class="text-[white]">
+            <a href="./user-dashboard.html">
                 <p>User</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
-            <a>
+        <div class="text-[white]">
+            <a href="./chat.html">
                 <p>Chat</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a>
                 <p>Latest Activity</p>
                 <img src=""/>
@@ -71,57 +73,72 @@
     </div>   
     <div>
         <!-- /interact -->
-         <div>
+         <div id="interact">
             <div style="display: flex;justify-content: space-between;">
-                <p>Dashboard</p>
-                <input type="search" placeholder="Search here"/>
+                <h1 class="text-[#303972]" id="heading">Dashboard</h1>
+                <input type="search" placeholder="Search here" class="text-[#A098AE]" id="search"/>
+            </div>
+            <div style="display: flex;justify-content: space-around; align-items: center;" id="interact1">
+                <div>
+                    <img src=""/>
+                    <div>
+                        <p class="text-[#A098AE]">Student</p>
+                        <p id="amount">amount</p>
+                    </div>
+                </div>
+                 <div>
+                    <img src=""/>
+                    <div>
+                        <p class="text-[#A098AE]">Teacher</p>
+                        <p id="amount">amount</p>
+                    </div>
+                </div>
+                 <div>
+                    <img src=""/>
+                    <div>
+                        <p class="text-[#A098AE]">Event</p>
+                        <p id="amount">amount</p>
+                    </div>
+                </div>
+                 <div>
+                    <img src=""/>
+                    <div>
+                        <p class="text-[#A098AE]">Foods</p>
+                        <p id="amount">amount</p>
+                    </div>
+                </div>
+            </div>
+             <div>
+                <h2>School Performance</h2>
             </div>
             <div style="display: flex;justify-content: space-between;">
                 <div>
-                    <img src=""/>
-                    <div>
-                        <p>Student</p>
-                        <p>amount</p>
-                    </div>
-                </div>
-                 <div>
-                    <img src=""/>
-                    <div>
-                        <p>Teacher</p>
-                        <p>amount</p>
-                    </div>
-                </div>
-                 <div>
-                    <img src=""/>
-                    <div>
-                        <p>Event</p>
-                        <p>amount</p>
-                    </div>
-                </div>
-                 <div>
-                    <img src=""/>
-                    <div>
-                        <p>Foods</p>
-                        <p>amount</p>
-                    </div>
-                </div>
-            </div>
-            <div style="display: flex;justify-content: space-between;">
-                <div>
-                    <p>School Calendar</p>
+                    <h2>School Calendar</h2>
                 </div>
                 <div>
-                    <p>School Finance</p>
+                    <h2>School Finance</h2>
                 </div>
             </div>
             <div>
-                <p>Unpaid Student Intution</p>
+                <h2>Unpaid Student Intution</h2>
+                <table>
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
          </div>
 
 
     </div>
-    <div>
+    <div id="user_information">
     <!-- /user information -->
         <div>
             <div>
