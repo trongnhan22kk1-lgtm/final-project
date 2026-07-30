@@ -1,0 +1,60 @@
+#menu{
+    width: 345px;
+    height: 1163px;
+}
+#menu>div{
+    width: 299px;
+    height: 64px;
+}
+#interact{
+    width: 1475px;
+    height: 2310px;
+}
+#heading{
+    width: 207px;
+    height: 54px;
+    font-size: 36px;
+}
+#interact1{
+    width: 1475px;
+    height: 60px;
+}
+#search{
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+#select{
+    width: 207px;
+    height: 60px;
+}
+#addNewStudent{
+    width: 207px;
+    height: 60px;
+    border-radius: 40px ;
+}
+#table{
+    width: 1475px;
+    height: 873px;
+}
+#table>thead>tr{
+    width: 1475px;
+    height: 112px;
+}
+#table>tr{
+    width: 1475px;
+    height: 112px;
+}
+#table>thead>tr>th{
+    text-align: left;
+    vertical-align: center;
+}
+#class{
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

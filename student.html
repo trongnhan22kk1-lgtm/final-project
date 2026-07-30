@@ -4,88 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./student.css">
 </head>
 <body style="display: flex; justify-content: space-between;">
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; align-items: end;" class="bg-[purple]" id="menu">
     <!-- /menu -->
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./index.html">
                 <img src=""/>
                 <p>Akademi</p>
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a href="./index.html">
                 <p>Dashboard</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="bg-[white] text-[purple]">
             <a href="./student.html">
                 <p>Students</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a href="./teacher.html">
                 <p>Teacher</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a href="./event.html">
                 <p>Event</p>
                 <img src="">
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a href="./finance.html">
                 <p>Finance</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a href="./food.html">
                 <p>Food</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a href="./user-dashboard.html">
                 <p>User</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a href="./chat.html">
                 <p>Chat</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]">
             <a>
                 <p>Latest Activity</p>
                 <img src=""/>
             </a>
         </div>
     </div>   
-    <div>
+    <div id="interact" style="display: flex;flex-direction: column;">
         <!-- /interact -->
-        <h1>Students</h1>
-        <div style="display: flex; justify-content: space-between;">
-            <input type="search" placeholder="Search here..."/>
-            <div>
-                <label id="menu-label"></label>
-                <select>
-                    <option value="home">Newest</option>
-                    <option value="news">Oldest</option>
+        <h1 class="text-[#303972]" id="heading">Students</h1>
+        <div style="display: flex; justify-content: space-between;" id="interact1">
+            <input type="search" placeholder="Search here..." class="bg-[#A098AE] text-[white] placeholder-[white]" id="search"/>
+            <div style="display: flex;justify-content: space-between;">
+                <select id="select" class="bg-[transparent] text-[purple] border border-purple-100 ">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
                 </select>
-                <input type="button" value="+ New student"/>
+                <div class="bg-[purple] text-[white]" id="addNewStudent" style="display: flex; align-items: center; justify-content: center;">
+                    <a href="add-new-student.html">
+                        <p>+ New Student </p>
+                    </a>    
+                </div>
             </div>
         </div>
-        <table class="custom-table">
+        <table class="bg-[grey]" id="table">
             <thead>
-                <tr>
+                <tr class="border border-white-100">
                 <!-- Ô checkbox dùng để Chọn tất cả -->
                     <th class="text-center"><input type="checkbox" id="check-all"></th>
                     <th>Name</th>
@@ -99,19 +104,19 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="border border-white-100">
                     <td class="text-center"><input type="checkbox" class="role-checkbox"></td>
-                    <td> <img src=""/> Samanta William</td>
-                    <td>#123456789</td>
-                    <td>March 25 2021</td>
-                    <td>Mana William</td>
-                    <td>Jakarta</td>
+                    <td> <img src=""/><span class="text-[black]">Samanta William</span></td>
+                    <td><span class="text-[#4D44B5]">#123456789</span></td>
+                    <td><span class="text-[#A098AE]">March 25 2021</span></td>
+                    <td><span class="text-[#303972]">Mana William</span></td>
+                    <td><span class="text-[#303972]">Jakarta</span></td>
                     <td>
-                        <p>Call</p>
-                        <p>Message</p>
+                        <button>Call</button>
+                        <button>Message</button>
                     </td>
                     <td>
-                        <div>VII A</div>
+                        <div class="bg-[#FB7D5B] text-[white]" id="class">VII A</div>
                     </td>
                     <td>
                         <label id="menu-label"></label>
@@ -121,19 +126,19 @@
                         </select>
                     </td>
                 </tr>
-                <tr>
+                <tr class="border border-white-100">
                     <td class="text-center"><input type="checkbox" class="role-checkbox"></td>
-                    <td> <img src=""/> Samanta William</td>
-                    <td>#123456789</td>
-                    <td>March 25 2021</td>
-                    <td>Mana William</td>
-                    <td>Jakarta</td>
+                    <td> <img src=""/><span class="text-[black]">Samanta William</span></td>
+                    <td><span class="text-[#4D44B5]">#123456789</span></td>
+                    <td><span class="text-[#A098AE]">March 25 2021</span></td>
+                    <td><span class="text-[#303972]">Mana William</span></td>
+                    <td><span class="text-[#303972]">Jakarta</span></td>
                     <td>
-                        <p>Call</p>
-                        <p>Message</p>
+                        <button>Call</button>
+                        <button>Message</button>
                     </td>
                     <td>
-                        <div>VII A</div>
+                        <div class="bg-[#FB7D5B] text-[white]" id="class">VII A</div>
                     </td>
                     <td>
                         <label id="menu-label"></label>
@@ -143,19 +148,19 @@
                         </select>
                     </td>
                 </tr>
-                <tr>
+                <tr class="border border-white-100">
                     <td class="text-center"><input type="checkbox" class="role-checkbox"></td>
-                    <td> <img src=""/> Samanta William</td>
-                    <td>#123456789</td>
-                    <td>March 25 2021</td>
-                    <td>Mana William</td>
-                    <td>Jakarta</td>
+                    <td> <img src=""/><span class="text-[black]">Samanta William</span></td>
+                    <td><span class="text-[#4D44B5]">#123456789</span></td>
+                    <td><span class="text-[#A098AE]">March 25 2021</span></td>
+                    <td><span class="text-[#303972]">Mana William</span></td>
+                    <td><span class="text-[#303972]">Jakarta</span></td>
                     <td>
-                        <p>Call</p>
-                        <p>Message</p>
+                        <button>Call</button>
+                        <button>Message</button>
                     </td>
                     <td>
-                        <div>VII A</div>
+                        <div class="bg-[#FB7D5B] text-[white]" id="class">VII A</div>
                     </td>
                     <td>
                         <label id="menu-label"></label>
