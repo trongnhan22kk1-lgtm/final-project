@@ -16,55 +16,55 @@
                 <p>Akademi</p>
             </a>
         </div>
-        <div class="text-[white]">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./index.html">
                 <p>Dashboard</p>
                 <img src=""/>
             </a>
         </div>
-        <div class="bg-[white] text-[purple]">
+        <div class="bg-[white] text-[purple]" style="display: flex;justify-content: start;align-items: center;" id="choose">
             <a href="./student.html">
                 <p>Students</p>
                 <img src=""/>
             </a>
         </div>
-        <div class="text-[white]">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./teacher.html">
                 <p>Teacher</p>
                 <img src=""/>
             </a>
         </div>
-        <div class="text-[white]">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./event.html">
                 <p>Event</p>
                 <img src="">
             </a>
         </div>
-        <div class="text-[white]">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./finance.html">
                 <p>Finance</p>
                 <img src=""/>
             </a>
         </div>
-        <div class="text-[white]">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./food.html">
                 <p>Food</p>
                 <img src=""/>
             </a>
         </div>
-        <div class="text-[white]">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./user-dashboard.html">
                 <p>User</p>
                 <img src=""/>
             </a>
         </div>
-        <div class="text-[white]">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./chat.html">
                 <p>Chat</p>
                 <img src=""/>
             </a>
         </div>
-        <div class="text-[white]">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a>
                 <p>Latest Activity</p>
                 <img src=""/>
@@ -76,11 +76,13 @@
         <h1 class="text-[#303972]" id="heading">Students</h1>
         <div style="display: flex; justify-content: space-between;" id="interact1">
             <input type="search" placeholder="Search here..." class="bg-[#A098AE] text-[white] placeholder-[white]" id="search"/>
-            <div style="display: flex;justify-content: space-between;">
-                <select id="select" class="bg-[transparent] text-[purple] border border-purple-100 ">
-                    <option value="newest">Newest</option>
-                    <option value="oldest">Oldest</option>
-                </select>
+            <div style="display: flex;justify-content: space-between; gap: 20px;">
+                <div id="select" class="border border-[purple]" style="display: flex;align-items: center;justify-content: center;">
+                    <select class="bg-[transparent] text-[purple] border border-none ">
+                        <option value="newest">Newest</option>
+                        <option value="oldest">Oldest</option>
+                    </select>
+                </div>
                 <div class="bg-[purple] text-[white]" id="addNewStudent" style="display: flex; align-items: center; justify-content: center;">
                     <a href="add-new-student.html">
                         <p>+ New Student </p>
@@ -119,11 +121,12 @@
                         <div class="bg-[#FB7D5B] text-[white]" id="class">VII A</div>
                     </td>
                     <td>
-                        <label id="menu-label"></label>
-                        <select>
-                            <option value="home">Newest</option>
-                            <option value="news">Oldest</option>
-                        </select>
+                        <div id="action" class="bg-[#FB7D5B]" style="display: flex; align-items: center; justify-content: center;">
+                            <select class="bg-transparent">
+                                <option value="active">Active</option>
+                                <option value="deactive">Deactive</option>
+                            </select>
+                        </div>
                     </td>
                 </tr>
                 <tr class="border border-white-100">
@@ -141,11 +144,12 @@
                         <div class="bg-[#FB7D5B] text-[white]" id="class">VII A</div>
                     </td>
                     <td>
-                        <label id="menu-label"></label>
-                        <select>
-                            <option value="home">Newest</option>
-                            <option value="news">Oldest</option>
-                        </select>
+                        <div id="action" class="bg-[#FB7D5B]" style="display: flex; align-items: center; justify-content: center;">
+                            <select class="bg-transparent">
+                                <option value="active">Active</option>
+                                <option value="deactive">Deactive</option>
+                            </select>
+                        </div>
                     </td>
                 </tr>
                 <tr class="border border-white-100">
@@ -163,11 +167,12 @@
                         <div class="bg-[#FB7D5B] text-[white]" id="class">VII A</div>
                     </td>
                     <td>
-                        <label id="menu-label"></label>
-                        <select>
-                            <option value="home">Newest</option>
-                            <option value="news">Oldest</option>
-                        </select>
+                        <div id="action" class="bg-[#FB7D5B]" style="display: flex; align-items: center; justify-content: center;">
+                            <select class="bg-transparent">
+                                <option value="active">Active</option>
+                                <option value="deactive">Deactive</option>
+                            </select>
+                        </div>
                     </td>
                 </tr>
             </tbody>

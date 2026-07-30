@@ -4,87 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teachers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./teacher.css">
 </head>
 <body style="display: flex; justify-content: space-between;">
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; align-items: end;" class="bg-[purple]" id="menu">
     <!-- /menu -->
-        <div>
-            <a href="./index.html">
+        <div style="align-self: center;" class="text-[white]">
+            <a href="./index.html" >
                 <img src=""/>
                 <p>Akademi</p>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./index.html">
                 <p>Dashboard</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./student.html">
                 <p>Students</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="bg-[white] text-[purple]" style="display: flex;justify-content: start;align-items: center;" id="choose">
             <a href="./teacher.html">
                 <p>Teacher</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./event.html">
                 <p>Event</p>
                 <img src="">
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./finance.html">
                 <p>Finance</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./food.html">
                 <p>Food</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./user-dashboard.html">
                 <p>User</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./chat.html">
                 <p>Chat</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a>
                 <p>Latest Activity</p>
                 <img src=""/>
             </a>
         </div>
     </div>   
-    <div>
+    <div id="interact" style="display: flex;flex-direction: column;">
         <!-- /interact -->
-        <h1>Teachers</h1>
-        <div style="display: flex; justify-content: space-between;">
-            <input type="search" placeholder="Search here..."/>
-            <div>
-                <label id="menu-label"></label>
-                <select>
-                    <option value="home">Newest</option>
-                    <option value="news">Oldest</option>
-                </select>
-                <input type="button" value="+ New student"/>
+        <h1 class="text-[#303972]" id="heading">Teachers</h1>
+        <div style="display: flex; justify-content: space-between;" id="interact1">
+            <input type="search" placeholder="Search here..." class="bg-[#A098AE] text-[white] placeholder-[white]" id="search"/>
+            <div style="display: flex;justify-content: space-between; gap: 20px;">
+                <div id="select" class="border border-[purple]" style="display: flex;align-items: center;justify-content: center;">
+                    <select class="bg-[transparent] text-[purple] border border-none ">
+                        <option value="newest">Newest</option>
+                        <option value="oldest">Oldest</option>
+                    </select>
+                </div>
+                <div class="bg-[purple] text-[white]" id="addNewTeacher" style="display: flex; align-items: center; justify-content: center;">
+                    <a href="./add-new-teacher.html">
+                        <p>+ New Teacher </p>
+                    </a>    
+                </div>
             </div>
         </div>
-        <div style="display: grid;grid-template-columns:repeat(4,auto);">
-            <div style="display: flex;">
+        <div style="display: grid;grid-template-columns:repeat(4,auto); row-gap: 30px;" id="interact2">
+            <div style="position:relative; display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
+                    <label style="position:absolute;right: 0;">⚙️</label>
+                    <select style="position:absolute;right:0;opacity:0">
+                        <option value="home">Newest</option>
+                        <option value="news">Oldest</option>
+                    </select>
+                </div>
+                <div style="display: flex;flex-direction: column;align-items: center;">
+                    <img src=""/>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
+                    <div style="display: flex;">
+                        <p>Call</p>
+                        <p>Messages</p>
+                    </div>
+                </div>
+                
+            
+            </div>
+            <div style="position:relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
+                    <label style="position:absolute;right: 0;">⚙️</label>
+                    <select style="position:absolute;right:0;opacity:0">
+                        <option value="home">Newest</option>
+                        <option value="news">Oldest</option>
+                    </select>
+                </div>
+                <div style="display: flex;flex-direction: column;align-items: center;">
+                    <img src=""/>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
+                    <div style="display: flex;">
+                        <p>Call</p>
+                        <p>Messages</p>
+                    </div>
+                </div>
+                
+            
+            </div>
+            <div style="position: relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
+                    <label style="position:absolute;right: 0;">⚙️</label>
+                    <select style="position:absolute;right:0;opacity:0">
+                        <option value="home">Newest</option>
+                        <option value="news">Oldest</option>
+                    </select>
+                </div>
+                <div style="display: flex;flex-direction: column;align-items: center;">
+                    <img src=""/>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
+                    <div style="display: flex;">
+                        <p>Call</p>
+                        <p>Messages</p>
+                    </div>
+                </div>
+                
+            
+            </div>
+            <div style="position:relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
                 <div style="position: relative;order:1">
                     <label style="position:absolute;right: 0;">⚙️</label>
                     <select style="position:absolute;right:0;opacity:0">
@@ -94,8 +161,8 @@
                 </div>
                 <div style="display: flex;flex-direction: column;align-items: center;">
                     <img src=""/>
-                    <b>Dimitres Viga</b>
-                    <p>Mathematics</p>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
                     <div style="display: flex;">
                         <p>Call</p>
                         <p>Messages</p>
@@ -104,8 +171,8 @@
                 
             
             </div>
-            <div style="display: flex;">
-                <div style="position: relative;order:1">
+            <div style="position:relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
                     <label style="position:absolute;right: 0;">⚙️</label>
                     <select style="position:absolute;right:0;opacity:0">
                         <option value="home">Newest</option>
@@ -114,18 +181,17 @@
                 </div>
                 <div style="display: flex;flex-direction: column;align-items: center;">
                     <img src=""/>
-                    <b>Dimitres Viga</b>
-                    <p>Mathematics</p>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
                     <div style="display: flex;">
                         <p>Call</p>
                         <p>Messages</p>
                     </div>
                 </div>
-                
-            
-            </div>
-            <div style="display: flex;">
-                <div style="position: relative;order: 1;">
+
+                </div>
+            <div style="position:relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
                     <label style="position:absolute;right: 0;">⚙️</label>
                     <select style="position:absolute;right:0;opacity:0">
                         <option value="home">Newest</option>
@@ -134,18 +200,17 @@
                 </div>
                 <div style="display: flex;flex-direction: column;align-items: center;">
                     <img src=""/>
-                    <b>Dimitres Viga</b>
-                    <p>Mathematics</p>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
                     <div style="display: flex;">
                         <p>Call</p>
                         <p>Messages</p>
                     </div>
                 </div>
-                
-            
-            </div>
-            <div style="display: flex;">
-                <div style="position: relative;order:1">
+
+                </div>
+            <div style="position:relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
                     <label style="position:absolute;right: 0;">⚙️</label>
                     <select style="position:absolute;right:0;opacity:0">
                         <option value="home">Newest</option>
@@ -154,18 +219,17 @@
                 </div>
                 <div style="display: flex;flex-direction: column;align-items: center;">
                     <img src=""/>
-                    <b>Dimitres Viga</b>
-                    <p>Mathematics</p>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
                     <div style="display: flex;">
                         <p>Call</p>
                         <p>Messages</p>
                     </div>
                 </div>
-                
-            
-            </div>
-            <div style="display: flex;">
-                <div style="position: relative;order:1">
+
+                </div>
+            <div style="position:relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
                     <label style="position:absolute;right: 0;">⚙️</label>
                     <select style="position:absolute;right:0;opacity:0">
                         <option value="home">Newest</option>
@@ -174,8 +238,46 @@
                 </div>
                 <div style="display: flex;flex-direction: column;align-items: center;">
                     <img src=""/>
-                    <b>Dimitres Viga</b>
-                    <p>Mathematics</p>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
+                    <div style="display: flex;">
+                        <p>Call</p>
+                        <p>Messages</p>
+                    </div>
+                </div>
+
+                </div>
+            <div style="position:relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
+                    <label style="position:absolute;right: 0;">⚙️</label>
+                    <select style="position:absolute;right:0;opacity:0">
+                        <option value="home">Newest</option>
+                        <option value="news">Oldest</option>
+                    </select>
+                </div>
+                <div style="display: flex;flex-direction: column;align-items: center;">
+                    <img src=""/>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
+                    <div style="display: flex;">
+                        <p>Call</p>
+                        <p>Messages</p>
+                    </div>
+                </div>
+
+                </div>
+            <div style="position:relative;display: flex; justify-content: center; align-items: center;" class="bg-[grey]">
+                <div style="position: absolute;top: 0px;right: 0px;">
+                    <label style="position:absolute;right: 0;">⚙️</label>
+                    <select style="position:absolute;right:0;opacity:0">
+                        <option value="home">Newest</option>
+                        <option value="news">Oldest</option>
+                    </select>
+                </div>
+                <div style="display: flex;flex-direction: column;align-items: center;">
+                    <img src=""/>
+                    <b class="text-[#303972]">Dimitres Viga</b>
+                    <p class="text-[#A098AE]">Mathematics</p>
                     <div style="display: flex;">
                         <p>Call</p>
                         <p>Messages</p>

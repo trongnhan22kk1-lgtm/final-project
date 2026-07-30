@@ -6,6 +6,9 @@
     width: 299px;
     height: 64px;
 }
+#choose{
+    border-radius: 40px 0 0 40px;
+}
 #interact{
     width: 1180px;
     height: 2310px;

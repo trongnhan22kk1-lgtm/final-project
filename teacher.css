@@ -1,0 +1,50 @@
+#menu{
+    width: 345px;
+    height: 1517px;
+}
+#menu>div{
+    width: 299px;
+    height: 72px;
+}
+#choose{
+    border-radius: 40px 0 0 40px;
+}
+#interact{
+    width: 1475px;
+    height: 1517px;
+    gap: 20px;
+}
+#heading{
+    width: 172px;
+    height: 54px;
+    font-size: 36px;
+}
+#interact1{
+    width: 1475px;
+    height: 60px;
+}
+#search{
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+}
+#select{
+    width: 207px;
+    height: 60px;
+    border-radius: 40px;
+}
+#addNewTeacher{
+    width: 207px;
+    height: 60px;
+    border-radius: 40px ;
+}
+#interact2>div{
+    width: 338px;
+    height: 352px;
+}
+#interact2>b{
+    font-size: 24px;
+}
+#interact2>b{
+    font-size: 18px;
+}
