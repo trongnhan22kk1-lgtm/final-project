@@ -4,166 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./event.css">
 </head>
 <body style="display: flex; justify-content: space-between;">
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; align-items: end;" class="bg-[purple]" id="menu">
     <!-- /menu -->
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./index.html">
                 <img src=""/>
                 <p>Akademi</p>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./index.html">
                 <p>Dashboard</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./student.html">
                 <p>Students</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./teacher.html">
                 <p>Teacher</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="bg-[white] text-[purple]" style="display: flex;justify-content: start;align-items: center;" id="choose">
             <a href="./event.html">
                 <p>Event</p>
                 <img src="">
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./finance.html">
                 <p>Finance</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./food.html">
                 <p>Food</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./user-dashboard.html">
                 <p>User</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./chat.html">
                 <p>Chat</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a>
                 <p>Latest Activity</p>
                 <img src=""/>
             </a>
         </div>
     </div>   
-    <div>
+    <div id="interact" style="display: flex;flex-direction: column;">
         <!-- /interact -->
-        <div style="display: flex;justify-content: space-between;">
-            <h1>Events</h1>
-            <input type="search" placeholder="Search here..."/>
+        <div id="interact1" style="display: flex;justify-content: space-between; align-items: center;">
+            <h1 class="text-[#303972]" id="heading">Events</h1>
+            <input type="search" placeholder="Search here..." class="bg-[#A098AE] text-[white] placeholder-[white]" id="search"/>
         </div>
-        <div style="display: flex;justify-content: space-between;">
-            <h1>Calendar</h1>
-            <div>
-                <select>
-                    <option value="January">January</option>
-                    <option value="February">February</option>
-                    <option value="March">March</option>
-                    <option value="April">April</option>
-                    <option value="May">May</option>
-                    <option value="June">June</option>
-                    <option value="Jully">Jully</option>
-                    <option value="August">August</option>
-                    <option value="September">September</option>
-                    <option value="October">October</option>
-                    <option value="November">November</option>
-                    <option value="December">December</option>
-                </select>
-                <select>
-                    <option value="2026">2026</option>
-                    <option value="2025">2025</option>
-                    <option value="2024">2024</option>
-                    <option value="2023">2023</option>
-                    <option value="2022">2022</option>
-                    <option value="2021">2021</option>
-                    <option value="2020">2020</option>
-                    <option value="2019">2019</option>
-                    <option value="2018">2018</option>
-                    <option value="2017">2017</option>
-                    <option value="2016">2016</option>
-                    <option value="2015">2015</option>
-                </select>
-            </div>
-        </div>
-        <div style="display: flex;justify-content: space-between;">
-            <div>
-                <div style="display: grid;grid-template-columns: repeat(7,auto);">
-                    <div>Monday</div>
-                    <div>Tuesday</div>
-                    <div>Wednesday</div>
-                    <div>Thursday</div>
-                    <div>Friday</div>
-                    <div>Saturday</div>
-                    <div>Sunday</div>
+        <div id="interact2" style="display: flex; justify-content: space-between;">
+            <div id="calendar">
+                <div style="display: flex;justify-content: space-between;">
+                    <h1 id="heading_1" class="text-[#303972]">Calendar</h1>
+                    <div style="display: flex; justify-content: space-between; gap: 20px">
+                        <div id="month" class="border border-[purple]" style="display: flex;align-items: center;justify-content: center;">
+                            <select class="bg-transparent text-[purple]">
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="Jully">Jully</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                            </select>
+                        </div>
+                        <div id="year" class="border border-[purple]" style="display: flex;align-items: center;justify-content: center;">
+                            <select class="bg-transparent text-[purple]">
+                                <option value="2026">2026</option>
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-                <div style="display: grid;grid-template-columns: repeat(7,auto);grid-template-rows: repeat(5,auto);">
-                    <div>31</div>
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                    <div>5</div>
-                    <div>6</div>
-                    <div>7</div>
-                    <div>8</div>
-                    <div>9</div>
-                    <div>10</div>
-                    <div>11</div>
-                    <div>12</div>
-                    <div>13</div>
-                    <div>14</div>
-                    <div>15</div>
-                    <div>16</div>
-                    <div>17</div>
-                    <div>18</div>
-                    <div>19</div>
-                    <div>20</div>
-                    <div>21</div>
-                    <div>22</div>
-                    <div>23</div>
-                    <div>24</div>
-                    <div>25</div>
-                    <div>26</div>
-                    <div>27</div>
-                    <div>28</div>
-                    <div>29</div>
-                    <div>30</div>
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
+                <div>
+                    <div>
+                        <div id="week" style="display: grid;grid-template-columns: repeat(7,auto);">
+                            <div class="text-[#A098AE]">Monday</div>
+                            <div class="text-[#A098AE]">Tuesday</div>
+                            <div class="text-[#A098AE]">Wednesday</div>
+                            <div class="text-[#A098AE]">Thursday</div>
+                            <div class="text-[#A098AE]">Friday</div>
+                            <div class="text-[#A098AE]">Saturday</div>
+                            <div class="text-[#A098AE]">Sunday</div>
+                        </div>
+                        <div id="day" style="display: grid;grid-template-columns: repeat(7,auto);grid-template-rows: repeat(5,auto);">
+                            <div class="text-[#303972] border border-[#A098AE]">31</div>
+                            <div class="text-[#303972] border border-[#A098AE]">1</div>
+                            <div class="text-[#303972 border border-[#A098AE]]">2</div>
+                            <div class="text-[#303972] border border-[#A098AE]">3</div>
+                            <div class="text-[#303972] border border-[#A098AE]">4</div>
+                            <div class="text-[#303972] border border-[#A098AE]">5</div>
+                            <div class="text-[#303972] border border-[#A098AE]">6</div>
+                            <div class="text-[#303972] border border-[#A098AE]">7</div>
+                            <div class="text-[#303972] border border-[#A098AE]">8</div>
+                            <div class="text-[#303972] border border-[#A098AE]">9</div>
+                            <div class="text-[#303972] border border-[#A098AE]">10</div>
+                            <div class="text-[#303972] border border-[#A098AE]">11</div>
+                            <div class="text-[#303972] border border-[#A098AE]">12</div>
+                            <div class="text-[#303972] border border-[#A098AE]">13</div>
+                            <div class="text-[#303972] border border-[#A098AE]">14</div>
+                            <div class="text-[#303972] border border-[#A098AE]">15</div>
+                            <div class="text-[#303972] border border-[#A098AE]">16</div>
+                            <div class="text-[#303972] border border-[#A098AE]">17</div>
+                            <div class="text-[#303972] border border-[#A098AE]">18</div>
+                            <div class="text-[#303972] border border-[#A098AE]">19</div>
+                            <div class="text-[#303972] border border-[#A098AE]">20</div>
+                            <div class="text-[#303972] border border-[#A098AE]">21</div>
+                            <div class="text-[#303972] border border-[#A098AE]">22</div>
+                            <div class="text-[#303972] border border-[#A098AE]">23</div>
+                            <div class="text-[#303972] border border-[#A098AE]">24</div>
+                            <div class="text-[#303972] border border-[#A098AE]">25</div>
+                            <div class="text-[#303972] border border-[#A098AE]">26</div>
+                            <div class="text-[#303972] border border-[#A098AE]">27</div>
+                            <div class="text-[#303972] border border-[#A098AE]">28</div>
+                            <div class="text-[#303972] border border-[#A098AE]">29</div>
+                            <div class="text-[#303972] border border-[#A098AE]">30</div>
+                            <div class="text-[#303972] border border-[#A098AE]">1</div>
+                            <div class="text-[#303972] border border-[#A098AE]">2</div>
+                            <div class="text-[#303972] border border-[#A098AE]">3</div>
+                            <div class="text-[#303972] border border-[#A098AE]">4</div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div style="display: flex;flex-direction: column;justify-content: space-between;">
-                <div>Schedule Details</div>
-                <div>Basic Algorithm</div>
-                <div>Basic Art</div>
-                <div>HTML & CSS Class</div>
-                <div>Simple Past Tense</div>
-                <input type="button" value="View More"/>
+            
+            </div>    
+            <div id="event" style="display: flex;flex-direction: column;justify-content: space-between;">
+                <div class="border border-[#F3F4FF]">Schedule Details</div>
+                <div class="border border-[#F3F4FF]">Basic Algorithm</div>
+                <div class="border border-[#F3F4FF]">Basic Art</div>
+                <div class="border border-[#F3F4FF]">HTML & CSS Class</div>
+                <div class="border border-[#F3F4FF]">Simple Past Tense</div>
+                <button class="bg-[grey] text-[purple] ">View More</button>
             </div>
         </div>
     </div>
