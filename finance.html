@@ -78,238 +78,246 @@
             <input type="search" placeholder="Search here..." class="bg-[#A098AE] text-[white] placeholder-[white]" id="search"/>
         </div>
         <div id="interact2" style="display: flex;justify-content: space-between;">
-            <div>
+            <div id="totalStudent" class="bg-[grey]">
                 <img src=""/>
-                <div>
-                    <p>Total Students</p>
+                <div >
+                    <p class="text-[white]">Total Students</p>
                     <p>932</p>
-                    <p><span>10%</span>than last month</p>
+                    <p class="text-[white]"><span class="text-[black]">10%</span>than last month</p>
                 </div>
             </div>
-            <div>
+            <div id="totalTeachers" class="bg-[grey]">
                 <img src=""/>
                 <div>
-                    <p>Total Teachers</p>
+                    <p class="text-[white]">Total Teachers</p>
                     <p>754</p>
-                    <p><span>-0.5%</span>than last month</p>
+                    <p class="text-[white]"><span class="text-[black]">-0.5%</span>than last month</p>
                 </div>
             </div>
-            <div>
+            <div id="schoolBalance" class="bg-[grey]">
                 <img src=""/>
                 <div>
-                    <p>School Balance</p>
+                    <p class="text-[white]">School Balance</p>
                     <p>$123,456</p>
-                    <p><span>+23%</span>than last month</p>
+                    <p class="text-[white]"><span class="text-[black]">+23%</span>than last month</p>
                 </div>
             </div>
         </div>
         <div>
-            <div style="display: flex;justify-content: space-between;">
-                <h1>Balance Analystic</h1>
-                <div style="display: flex;justify-content: space-between;">
-                    <div>
+            <div style="display: flex;justify-content: space-between;" id="interact3">
+                <h1 id="heading1" class="text-[#303972]">Balance Analystic</h1>
+                <div style="display: flex;justify-content: space-between;" id="option">
+                    <div style="display: flex;" id="expense">
                         <img src=""/>
                         <div>
                             <p>Expense</p>
                             <p>1,245</p>
                         </div>
                     </div>
-                    <div>
+                    <div style="display: flex;" id="income">
                         <img src=""/>
                         <div>
                             <p>Income</p>
                             <p>1,356</p>
                         </div>
                     </div>
-                    <select>
-                        <option value="Year">Year</option>
-                        <option value="Month">Month</option>
-                        <option value="Day">Day</option>
-                    </select>
+                    <div id="select" class="border border-[purple]" style="display: flex;align-items: center;justify-content: center;">
+                        <select class="bg-[transparent] text-[purple] border border-none ">
+                            <option value="Year">Year</option>
+                            <option value="Month">Month</option>
+                            <option value="Day">Day</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div></div>
         </div>
-        <div style="display: flex;justify-content: space-between;">
-            <table>
-                <thead>
-                    <tr><b>Unpaid Student Intution</b></tr>
-                    </thead>
-                <tbody>
-                    <tr>
-                        <td>Samantha W.</td>
-                        <td>ID 123456789</td>
-                        <td style="display: flex;">
-                            <img src=""/>
-                            <div>
-                                <p>Class</p>
-                                <p>VII A</p>
-                            </div>
-                        </td>
-                        <td>$50,036</td>
-                        <td>
-                            <select>
-                                <option value="home">Newest</option>
-                                <option value="news">Oldest</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Samantha W.</td>
-                        <td>ID 123456789</td>
-                        <td style="display: flex;">
-                            <img src=""/>
-                            <div>
-                                <p>Class</p>
-                                <p>VII A</p>
-                            </div>
-                        </td>
-                        <td>$50,036</td>
-                        <td>
-                            <select>
-                                <option value="home">Newest</option>
-                                <option value="news">Oldest</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Samantha W.</td>
-                        <td>ID 123456789</td>
-                        <td style="display: flex;">
-                            <img src=""/>
-                            <div>
-                                <p>Class</p>
-                                <p>VII A</p>
-                            </div>
-                        </td>
-                        <td>$50,036</td>
-                        <td>
-                            <select>
-                                <option value="home">Newest</option>
-                                <option value="news">Oldest</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Samantha W.</td>
-                        <td>ID 123456789</td>
-                        <td style="display: flex;">
-                            <img src=""/>
-                            <div>
-                                <p>Class</p>
-                                <p>VII A</p>
-                            </div>
-                        </td>
-                        <td>$50,036</td>
-                        <td>
-                            <select>
-                                <option value="home">Newest</option>
-                                <option value="news">Oldest</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Samantha W.</td>
-                        <td>ID 123456789</td>
-                        <td>
-                            <img src=""/>
-                        </td>
-                        <td>
-                            <p>Class</p>
-                            <p>VII A</p>
-                        </td>
-                        <td>$50,036</td>
-                        <td>
-                            <select>
-                                <option value="home">Newest</option>
-                                <option value="news">Oldest</option>
-                            </select>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table>
-                <thead>
-                    <tr> <b> School Expense </b> </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <img src=""/>
-                        </td>
-                        <td>
-                            <p>#123456789</p>
-                            <p>2 March 2021, 13:45 PM</p>
-                        </td>
-                        <td>
-                            $50,036
-                        </td>
-                        <td>
-                            Complete
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src=""/>
-                        </td>
-                        <td>
-                            <p>#123456789</p>
-                            <p>2 March 2021, 13:45 PM</p>
-                        </td>
-                        <td>
-                            $50,036
-                        </td>
-                        <td>
-                            Complete
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src=""/>
-                        </td>
-                        <td>
-                            <p>#123456789</p>
-                            <p>2 March 2021, 13:45 PM</p>
-                        </td>
-                        <td>
-                            $50,036
-                        </td>
-                        <td>
-                            Complete
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src=""/>
-                        </td>
-                        <td>
-                            <p>#123456789</p>
-                            <p>2 March 2021, 13:45 PM</p>
-                        </td>
-                        <td>
-                            $50,036
-                        </td>
-                        <td>
-                            Complete
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src=""/>
-                        </td>
-                        <td>
-                            <p>#123456789</p>
-                            <p>2 March 2021, 13:45 PM</p>
-                        </td>
-                        <td>
-                            $50,036
-                        </td>
-                        <td>
-                            Complete
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div id="interact4" style="display: flex;justify-content: space-between;">
+            <div id="unpaidStudentItution" class="bg-[grey]" >
+                <div>
+                    <b>Unpaid Student Intution</b>
+                    <table id="table1">
+                        <thead></thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-[#303972]">Samantha W.</td>
+                                <td class="text-[#4D44B5]">ID 123456789</td>
+                                <td>
+                                    <img src=""/>
+                                    <div>
+                                        <p>Class</p>
+                                        <p>VII A</p>
+                                    </div>
+                                </td>
+                                <td>$50,036</td>
+                                <td>
+                                    <select>
+                                        <option value="home">Newest</option>
+                                        <option value="news">Oldest</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-[#303972]">Samantha W.</td>
+                                <td class="text-[#4D44B5]">ID 123456789</td>
+                                <td>
+                                    <img src=""/>
+                                    <div>
+                                        <p class="text-[#A098AE]">Class</p>
+                                        <p>VII A</p>
+                                    </div>
+                                </td>
+                                <td>$50,036</td>
+                                <td>
+                                    <select>
+                                        <option value="home">Newest</option>
+                                        <option value="news">Oldest</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-[#303972]">Samantha W.</td>
+                                <td class="text-[#4D44B5]">ID 123456789</td>
+                                <td>
+                                    <img src=""/>
+                                    <div>
+                                        <p class="text-[#A098AE]">Class</p>
+                                        <p>VII A</p>
+                                    </div>
+                                </td>
+                                <td>$50,036</td>
+                                <td>
+                                    <select>
+                                        <option value="home">Newest</option>
+                                        <option value="news">Oldest</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-[#303972]">Samantha W.</td>
+                                <td class="text-[#4D44B5]">ID 123456789</td>
+                                <td>
+                                    <img src=""/>
+                                    <div>
+                                        <p class="text-[#A098AE]">Class</p>
+                                        <p>VII A</p>
+                                    </div>
+                                </td>
+                                <td>$50,036</td>
+                                <td>
+                                    <select>
+                                        <option value="home">Newest</option>
+                                        <option value="news">Oldest</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-[#303972]">Samantha W.</td>
+                                <td class="text-[#4D44B5]">ID 123456789</td>
+                                <td>
+                                    <img src=""/>
+                                    <div>
+                                        <p class="text-[#A098AE]">Class</p>
+                                        <p>VII A</p>
+                                    </div>
+                                </td>
+                                <td>$50,036</td>
+                                <td>
+                                    <select>
+                                        <option value="home">Newest</option>
+                                        <option value="news">Oldest</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="schoolExpense" class="bg-[grey]">
+                <div>
+                    <b> School Expense </b>
+                    <table id="table2">
+                        <thead></thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src=""/>
+                                </td>
+                                <td>
+                                    <p>#123456789</p>
+                                    <p class="text-[#A098AE]">2 March 2021, 13:45 PM</p>
+                                </td>
+                                <td>
+                                    $50,036
+                                </td>
+                                <td>
+                                    Complete
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src=""/>
+                                </td>
+                                <td>
+                                    <p>#123456789</p>
+                                    <p class="text-[#A098AE]">2 March 2021, 13:45 PM</p>
+                                </td>
+                                <td>
+                                    $50,036
+                                </td>
+                                <td>
+                                    Complete
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src=""/>
+                                </td>
+                                <td>
+                                    <p>#123456789</p>
+                                    <p class="text-[#A098AE]">2 March 2021, 13:45 PM</p>
+                                </td>
+                                <td>
+                                    $50,036
+                                </td>
+                                <td>
+                                    Complete
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src=""/>
+                                </td>
+                                <td>
+                                    <p>#123456789</p>
+                                    <p class="text-[#A098AE]">2 March 2021, 13:45 PM</p>
+                                </td>
+                                <td>
+                                    $50,036
+                                </td>
+                                <td>
+                                    Complete
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src=""/>
+                                </td>
+                                <td>
+                                    <p>#123456789</p>
+                                    <p class="text-[#A098AE]">2 March 2021, 13:45 PM</p>
+                                </td>
+                                <td>
+                                    $50,036
+                                </td>
+                                <td>
+                                    Complete
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
        
         
