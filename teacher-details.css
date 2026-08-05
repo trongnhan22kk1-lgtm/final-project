@@ -1,0 +1,30 @@
+#menu{
+    width: 345px;
+    height: 1255px;
+}
+#menu>div{
+    width: 299px;
+    height: 72px;
+}
+#choose{
+    border-radius: 40px 0 0 40px;
+}
+#interact{
+    width: 1575px;
+    height: 1255px;
+    gap: 20px;
+}
+#interact1{
+    width: 1575px;
+    height: 60px;
+}
+#heading{
+    width: 288px;
+    height: 54px;
+    font-size: 36px;
+}
+#search{
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+}
