@@ -28,3 +28,111 @@
     height: 60px;
     border-radius: 40px;
 }
+#interact2{
+    width: 1017px;
+    height: 1065px;
+}
+#interact2>h2{
+    width: 232px;
+    height: 48px;
+    font-size: 32px
+}
+#subject{
+    width: 144px;
+    height: 27px;
+    font-size: 18px;
+}
+#infor{
+    width: 734px;
+    height: 40px;
+}
+#infor>p{
+    font-size: 18px;
+}
+#about{
+    width: 616px;
+    height: 160px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about>h3{
+    width: 83px;
+    height: 36px;
+    font-size: 24px;
+}
+#about>p{
+    width: 616px;
+    height: 108px;
+    font-size: 18px;
+}
+#education{
+    width: 444px;
+    height: 215px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#education>h3{
+    width: 132px;
+    height: 36px;
+    font-size: 24px;
+}
+#education>ul{
+    width: 444px;
+    height: 163px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    list-style-type: disc;
+}
+#education>ul>li{
+    width: 410px;
+    height: 63px;
+}
+#education>ul>li>h4{
+    font-size: 18px;
+}
+#education>ul>li>p{
+    font-size: 18px;
+}
+#expertise{
+    width: 616px;
+    height: 79px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#expertise>h3{
+    width: 121px;
+    height: 36px;
+    font-size: 24px;
+}
+#expertise>p{
+    width: 616px;
+    height: 27px;
+    font-size: 18px;
+}
+#interact3{
+    width: 420px; 
+    height: 1065px;
+}
+#schedule{
+    width: 420px;
+    height: 129px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#schedule>h2{
+    width: 206px;
+    height: 36px;
+    font-size: 24px;
+}
+#schedule>p{
+    width: 174px;
+    height: 21px;
+    font-size: 14px;
+}
