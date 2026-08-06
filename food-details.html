@@ -4,88 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./food-details.css">
 </head>
 <body style="display: flex; justify-content: space-between;">
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; align-items: end;" class="bg-[purple]" id="menu">
     <!-- /menu -->
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./index.html">
                 <img src=""/>
                 <p>Akademi</p>
             </a>
         </div>
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./index.html">
                 <p>Dashboard</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./student.html">
                 <p>Students</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./teacher.html">
                 <p>Teacher</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./event.html">
                 <p>Event</p>
                 <img src="">
             </a>
         </div>
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./finance.html">
                 <p>Finance</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="bg-[white] text-[purple]" style="display: flex;justify-content: start;align-items: center;" id="choose">
             <a href="./food.html">
                 <p>Food</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./user-dashboard.html">
                 <p>User</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a href="./chat.html">
                 <p>Chat</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div style="align-self: center;" class="text-[white]">
             <a>
                 <p>Latest Activity</p>
                 <img src=""/>
             </a>
         </div>
     </div>   
-    <div>
+    <div id="interact" style="display: flex;flex-direction: column;">
         <!-- /interact -->
-        <div style="display: flex;justify-content: space-between;">
-            <h1>Food Details</h1>
-            <input type="search" placeholder="Search here..."/>
+        <div id="interact1" style="display: flex;justify-content: space-between; align-items: center;">
+            <h1 class="text-[#303972]" id="heading">Food Details</h1>
+            <input type="search" placeholder="Search here..." class="bg-[#A098AE] text-[white] placeholder-[white]" id="search"/>
         </div>
-        <div style="display: flex;justify-content: space-between;">
-            <div>
+        <div style="display: flex;justify-content: space-between;" id="interact2">
+            <div id="interact3">
                 <div>
                     <img src=""/>
                     <div>
-                        <img src=""/>
-                        <div>
-                            <h2>Beef Steak with Fried Potato</h2>
-                            <div>Lunch</div>
-                            <p>
-                        </div>
+                        <h2>Beef Steak with Fried Potato</h2>
+                        <div>Lunch</div>
+                        <p></p>
                     </div>
                 </div>
                 <div style="display: flex;justify-content: space-between;">
@@ -135,7 +134,7 @@
                     </ul>
                 </div>
             </div>
-            <div style="display: flex;flex-direction: column;justify-content: space-between;">
+            <div style="display: flex;flex-direction: column;justify-content: space-between;" id="interact4">
                 <h2>Student Comments</h2>
                 <div>
                     <img src=""/>

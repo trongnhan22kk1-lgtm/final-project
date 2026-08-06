@@ -1,0 +1,42 @@
+#menu{
+    width: 345px;
+    height: 1071px;
+}
+#menu>div{
+    width: 299px;
+    height: 72px;
+}
+#choose{
+    border-radius: 40px 0 0 40px;
+}
+#interact{
+    width: 1522px;
+    height: 1071px;
+    gap: 20px;
+}
+#interact1{
+    width: 1098px;
+    height: 80px;
+}
+#heading{
+    width: 227px;
+    height: 54px;
+    font-size: 36px;
+}
+#search{
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+}
+#interact2{
+    width: 1572px;
+    height: 1071px;
+}
+#interact3{
+    width: 1098px;
+    height: 867px;
+}
+#interact4{
+    width: 337px;
+    height: 867px;
+}

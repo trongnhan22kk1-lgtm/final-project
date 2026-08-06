@@ -58,3 +58,60 @@
     width: 953px;
     height: 75px;
 }
+#interact3{
+    width: 1017px;
+    height: 527px;
+}
+#interact3>h3{
+    width: 207px;
+    height: 36px;
+    font-size: 24px;
+}
+#interact3>table{
+    width: 953px;
+    height: 296px;
+}
+#interact4{
+    width: 420px;
+    height: 1065px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#schedule{
+    width: 420px;
+    height: 129px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#schedule>h2{
+    width: 206px;
+    height: 36px;
+    font-size: 24px;
+}
+#schedule>p{
+    width: 174px;
+    height: 21px;
+    font-size: 14px;
+}
+.bl{
+    width: 420px;
+    height: 183px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.heading{
+    font-size: 18px;
+}
+.text{
+    font-size: 14px
+}
+.button{
+    width: 420px;
+    height: 60px;
+    border-radius: 40px;
+}
