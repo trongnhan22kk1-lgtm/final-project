@@ -1,0 +1,60 @@
+#menu{
+    width: 345px;
+    height: 1325px;
+}
+#menu>div{
+    width: 299px;
+    height: 72px;
+}
+#choose{
+    border-radius: 40px 0 0 40px;
+}
+#interact{
+    width: 1475px;
+    height: 1325px;
+    gap: 20px;
+}
+#interact1{
+    width: 1475px;
+    height: 60px;
+}
+#heading{
+    width: 288px;
+    height: 54px;
+    font-size: 36px;
+}
+#search{
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+}
+#interact2{
+    width: 1017px;
+    height: 498px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#img{
+    width: 1017px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#img>img{
+    width: 200px;
+    height: 200px;
+}
+#img>div{
+    width: 24px;
+    height: 24px
+}
+#interact2>h2{
+    width: 191px;
+    height: 48px;
+    font-size: 32px;
+}
+#infor{
+    width: 953px;
+    height: 75px;
+}

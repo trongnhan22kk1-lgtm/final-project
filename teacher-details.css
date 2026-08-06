@@ -37,6 +37,20 @@
     height: 48px;
     font-size: 32px
 }
+#img{
+    width: 1017px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#img>img{
+    width: 200px;
+    height: 200px;
+}
+#img>div{
+    width: 24px;
+    height: 24px
+}
 #subject{
     width: 144px;
     height: 27px;
@@ -117,6 +131,9 @@
 #interact3{
     width: 420px; 
     height: 1065px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #schedule{
     width: 420px;
@@ -135,4 +152,23 @@
     width: 174px;
     height: 21px;
     font-size: 14px;
+}
+.block{
+    width: 420px;
+    height: 183px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.heading{
+    font-size: 18px;
+}
+.text{
+    font-size: 14px
+}
+.button{
+    width: 420px;
+    height: 60px;
+    border-radius: 40px;
 }
