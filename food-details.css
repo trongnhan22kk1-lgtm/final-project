@@ -36,6 +36,42 @@
     width: 1098px;
     height: 867px;
 }
+#meal{
+    width: 917px;
+    height: 239px;
+    display: flex;
+    justify-content: space-between;
+}
+#meal>img{
+    width: 316px;
+    height: 239px;
+}
+#mealName{
+    width: 500px;
+    height: 233px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#mealName>h2{
+    width: 342px;
+    height: 36px;
+    font-size: 24px;
+}
+#mealName>div{
+    width: 120px;
+    height: 41px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+#mealName>p{
+    width: 508px;
+    height: 81px;
+    font-size: 18px;
+}
 #interact4{
     width: 337px;
     height: 867px;

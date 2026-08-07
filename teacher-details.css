@@ -131,9 +131,6 @@
 #interact3{
     width: 420px; 
     height: 1065px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 #schedule{
     width: 420px;
