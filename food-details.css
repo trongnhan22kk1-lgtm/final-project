@@ -72,7 +72,44 @@
     height: 81px;
     font-size: 18px;
 }
+#stat{
+    width: 652px;
+    height: 67px;
+}
+#ingredient{
+    width: 508px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#nutrition{
+    width: 486px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#ingredient>ul {
+    width: 508px;
+    height: 256px;
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+#nutrition>ul{
+    width: 486px;
+    height: 224px;
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
 #interact4{
     width: 337px;
     height: 867px;
+}
+#interact4>div{
+    margin-left: 40px
 }

@@ -1,0 +1,55 @@
+#menu{
+    width: 345px;
+    height: 1370px;
+}
+#menu>div{
+    width: 299px;
+    height: 72px;
+}
+#choose{
+    border-radius: 40px 0 0 40px;
+}
+#interact{
+    width: 1110px;
+    height: 1370px;
+}
+#interact1{
+    width: 1098px;
+    height: 80px;
+}
+#heading{
+    width: 300px;
+    height: 54px;
+    font-size: 36px;
+}
+#search{
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+}
+#interact2{
+    width: 1111px;
+    height: 1221px;
+}
+#interact3{
+    width: 1111px;
+    height: 180px;
+}
+#img{
+    width: 165px;
+    height: 165px;
+}
+#select{
+    width: 24px;
+    height: 24px;
+}
+#name{
+    width: 227px;
+    height: 48px;
+    font-size: 32px;
+}
+#role{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+}
