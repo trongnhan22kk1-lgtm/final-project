@@ -4,157 +4,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./add-new-student.css">
 </head>
 <body style="display: flex; justify-content: space-between;">
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; align-items: end;" class="bg-[purple]" id="menu">
     <!-- /menu -->
-        <div>
+        <div style="align-self: center;" class="text-[white] text-4xl">
             <a href="./index.html">
                 <img src=""/>
                 <p>Akademi</p>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./index.html">
                 <p>Dashboard</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="bg-[white] text-[purple]" style="display: flex;justify-content: start;align-items: center;" id="choose">
             <a href="./student.html">
                 <p>Students</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./teacher.html">
                 <p>Teacher</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./event.html">
                 <p>Event</p>
                 <img src="">
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./finance.html">
                 <p>Finance</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./food.html">
                 <p>Food</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./user-dashboard.html">
                 <p>User</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./chat.html">
                 <p>Chat</p>
                 <img src=""/>
             </a>
         </div>
-        <div>
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a>
                 <p>Latest Activity</p>
                 <img src=""/>
             </a>
         </div>
     </div>   
-    <div style="display: flex;flex-direction: column;justify-content: space-between;">
+    <div style="display: flex;flex-direction: column;justify-content: space-between;" id="interact">
         <!-- /interact -->
-        <h1>Add New Student</h1>
-        <div>
-            <h2>Student Details</h2>
+        <h1 class="w-[318px] h-[54px] text-[#303972] text-4xl">Add New Student</h1>
+        <div id="interact2">
+            <div style="display: flex; align-items: center;" class="w-[1570px] h-[60px] bg-[#4D44B5]">
+                <h2 class="w-[249px] h-[36px] text-2xl text-[white]">Student Details</h2>
+            </div>
             <div style="display: flex;justify-content: space-between;">
-                <div>
-                    <h3>Photo</h3>
-                    <input type="image"/>
+                <div style="display: flex;flex-direction: column; justify-content: space-between;" class="w-[192px] h-[218px]">
+                    <h3 class="text-[#303972] text-lg ">Photo</h3>
+                    <input type="image" class="w-[175px] h-[175px]"/>
                 </div>
                 <div>
-                    <div>
-                        <h3>First Name</h3>
-                        <input type="text"/>
+                    <div class="w-[577px] h-[91px]">
+                        <h3 class="text-[#303972] text-lg">First Name</h3>
+                        <input type="text" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                     </div>
-                    <div>
-                        <h3>Date & Place of Birth</h3>
-                        <div style="display: flex; justify-content: space-between;">
-                            <input type="text" placeholder="Date of birth"/>
-                            <input type="text" placeholder="Place of birth"/>
+                    <div class="w-[577px] h-[91px]">
+                        <h3 class="text-[#303972] text-lg">Date & Place of Birth</h3>
+                        <div style="display: flex; justify-content: space-between;" class="w-[577px] h-[48px]">
+                            <input type="text" placeholder="Date of birth" class="w-[276.5px] h-[48px] border border-[#A098AE]"/>
+                            <input type="text" placeholder="Place of birth" class="w-[276.5px] h-[48px] border border-[#A098AE]"/>
                         </div>
                     </div>
-                    <div>
-                        <h3>Email</h3>
-                        <input type="text" placeholder ="Email"/>
+                    <div class="w-[577px] h-[91px]">
+                        <h3 class="text-[#303972] text-lg">Email</h3>
+                        <input type="text" placeholder ="Email" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                     </div>
-                    <div>
-                        <h3>Address</h3>
-                        <input type="text" placeholder="Address"/>
+                    <div class="w-[577px] h-[246px]">
+                        <h3 class="text-[#303972] text-lg">Address</h3>
+                        <input type="text" placeholder="Address" class="w-[577px] h-[175px] border border-[#A098AE]"/>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <h3>Last name</h3>
-                        <input type="text"/>
+                    <div class="w-[577px] h-[91px]">
+                        <h3 class="text-[#303972] text-lg">Last name</h3>
+                        <input type="text" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                     </div>
-                    <div>
-                        <h3>Parent name</h3>
-                        <input type="text" placeholder="Parent name"/>
+                    <div class="w-[577px] h-[91px]">
+                        <h3 class="text-[#303972] text-lg">Parent name</h3>
+                        <input type="text" placeholder="Parent name" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                     </div>
-                    <div>
-                        <h3>Phone</h3>
-                        <input type="text" placeholder="Phone"/>
+                    <div class="w-[577px] h-[91px]">
+                        <h3 class="text-[#303972] text-lg">Phone</h3>
+                        <input type="text" placeholder="Phone" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                     </div>
                 </div>
             </div>
             <div>
-                <h2>Parent Details</h2>
+                <div style="display: flex; align-items: center;" class="w-[1570px] h-[60px] bg-[#4D44B5]">
+                    <h2 class="w-[249px] h-[36px] text-2xl text-[white]">Parent Details</h2>
+                </div>
                 <div style="display: flex;justify-content: space-between;">
                     <div>
-                        <div>
-                            <h3>First name</h3>
-                            <input type="text"/>
+                        <div class="w-[577px] h-[91px]">
+                            <h3 class="text-[#303972] text-lg">First name</h3>
+                            <input type="text" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                         </div>
-                        <div>
-                            <h3>Email</h3>
-                            <input type="text" placeholder="Email"/>
+                        <div class="w-[577px] h-[91px]">
+                            <h3 class="text-[#303972] text-lg">Email</h3>
+                            <input type="text" placeholder="Email" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                         </div>
-                        <div>
-                            <h3>Address</h3>
-                            <input type="text" placeholder="Address"/>
+                        <div class="w-[577px] h-[246px]">
+                            <h3 class="text-[#303972] text-lg">Address</h3>
+                            <input type="text" placeholder="Address" class="w-[577px] h-[175px] border border-[#A098AE]"/>
                         </div>
                     </div>
                     <div>
-                        <div>
-                            <h3>Last name</h3>
-                            <input type="text"/>
+                        <div class="w-[577px] h-[91px]">
+                            <h3 class="text-[#303972] text-lg">Last name</h3>
+                            <input type="text" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                         </div>
-                        <div>
-                            <h3>Phone</h3>
-                            <input type="text" placeholder="Phone"/>
+                        <div class="w-[577px] h-[91px]">
+                            <h3 class="text-[#303972] text-lg">Phone</h3>
+                            <input type="text" placeholder="Phone" class="w-[577px] h-[48px] border border-[#A098AE]"/>
                         </div>
-                        <div>
-                            <h3>Payments</h3>
+                        <div class="w-[192px] h-[72px]">
+                            <h3 class="text-[#303972] text-lg">Payments</h3>
                             <div style="display: flex;justify-content: space-between;">
-                                <input type="radio" name="payments"/>Cash
-                                <input type="radio" name="payments"/>Debit
+                                <div style="display: flex; justify-content: space-between; align-items: center;" class="w-[65px] h-[24px]">
+                                    <input type="radio" name="payments" value="Cash"  />
+                                    <label class="text-[#A098AE] text-sm">Cash</label>
+                                </div>
+                                <div style="display: flex; justify-content: space-between; align-items: center;" class="w-[65px] h-[24px]">
+                                    <input type="radio" name="payments" value="Debit"/>
+                                    <label class="text-[#A098AE] text-sm">Debit</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div style="display: flex;justify-content:flex-end">
-            <input type="button" value="Save as Draft"/>
-            <input type="button" value="Submit"/>
+        <div style="display: flex;justify-content:flex-end" id="button">
+            <div style="display: flex; justify-content: space-between;" class="w-[306px] h-[80px]">
+                <input type="button" value="Save as Draft" class="w-[168px] h-[60px] border border-[#4D44B5] rounded-[40px] text-[#4D44B5] text-lg"/>
+                <input type="button" value="Submit" class="w-[112px] h-[60px] bg-[#4D44B5] rounded-[40px] text-[white] text-lg"/>
+            </div>
         </div>
     </div>
     <div>

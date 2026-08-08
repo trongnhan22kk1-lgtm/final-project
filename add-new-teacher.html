@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./add-new-teacher.css">
 </head>
 <body style="display: flex; justify-content: space-between;">
     <div style="display: flex; flex-direction: column; align-items: end;" class="bg-[purple]" id="menu">
@@ -14,13 +16,13 @@
                 <p>Akademi</p>
             </a>
         </div>
-        <div style="align-self: center;" class="text-[white] text-4xl">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./index.html">
                 <p>Dashboard</p>
                 <img src=""/>
             </a>
         </div>
-        <div style="align-self: center;" class="text-[white] text-4xl">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./student.html">
                 <p>Students</p>
                 <img src=""/>
@@ -32,118 +34,126 @@
                 <img src=""/>
             </a>
         </div>
-        <div style="align-self: center;" class="text-[white] text-4xl">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./event.html">
                 <p>Event</p>
                 <img src="">
             </a>
         </div>
-        <div style="align-self: center;" class="text-[white] text-4xl">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./finance.html">
                 <p>Finance</p>
                 <img src=""/>
             </a>
         </div>
-        <div style="align-self: center;" class="text-[white] text-4xl">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./food.html">
                 <p>Food</p>
                 <img src=""/>
             </a>
         </div>
-        <div style="align-self: center;" class="text-[white] text-4xl">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./user-dashboard.html">
                 <p>User</p>
                 <img src=""/>
             </a>
         </div>
-        <div style="align-self: center;" class="text-[white] text-4xl">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a href="./chat.html">
                 <p>Chat</p>
                 <img src=""/>
             </a>
         </div>
-        <div style="align-self: center;" class="text-[white] text-4xl">
+        <div class="text-[white]" style="display: flex;justify-content: start;align-items: center;">
             <a>
                 <p>Latest Activity</p>
                 <img src=""/>
             </a>
         </div>
     </div>   
-    <div style="display: flex;flex-direction: column;justify-content: space-between;">
+    <div style="display: flex;flex-direction: column;justify-content: space-between;" id="interact">
         <!-- /interact -->
-        <h1>Add New Teacher</h1>
-        <div>
-            <h2>Personal Details</h2>
-            <div style="display: flex;justify-content: space-between;">
-                <div>
-                    <div>
-                        <h3>First Name</h3>
-                        <input type="text"/>
-                    </div>
-                    <div>
-                        <h3>Email</h3>
-                        <input type="text" placeholder ="Email"/>
-                    </div>
-                    <div>
-                        <h3>Address</h3>
-                        <input type="text" placeholder="Address"/>
-                    </div>
-                     <div>
-                        <h3>Date of Birth</h3>
-                        <input type="text" placeholder="Date of birth"/>
-                    </div>
+        <h1 id="heading" class="text-[#303972]">Add New Teacher</h1>
+        <div id="interact2">
+            <div id="personalDetails">
+                <div class="w-[1475px] h-[60px] bg-[#4D44B5]">
+                    <h2 class="text-[white] text-2xl">Personal Details</h2>
                 </div>
-                <div>
-                    <div>
-                        <h3>Last name</h3>
-                        <input type="text"/>
-                    </div>
-                    <div>
-                        <h3>Phone</h3>
-                        <input type="text" placeholder="Phone"/>
-                    </div>
-                    <div>
-                        <h3>Photo</h3>
-                        <input type="image"/>
-                    </div>
-                    <div>
-                        <h3>PLace of birth</h3>
-                        <input type="text" placeholder="Place of birth"/>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h2>Education</h2>
                 <div style="display: flex;justify-content: space-between;">
                     <div>
                         <div>
-                            <h3>University</h3>
-                            <input type="text"/>
+                            <h3 class="text-[#303972] text-lg">First Name</h3>
+                            <input type="text" class="w-[617px] h-[48px] border border-[#A098AE]"/>
                         </div>
                         <div>
-                            <h3>Start & End Date</h3>
-                            <div>
-                                <input type="text" placeholder="Start Date"/>
-                                <input type="text" placeholder="End Date"/>
+                            <h3 class="text-[#303972] text-lg">Email</h3>
+                            <input type="text" class="w-[617px] h-[48px] border border-[#A098AE]"/>
+                        </div>
+                        <div>
+                            <h3 class="text-[#303972] text-lg">Address</h3>
+                            <input type="text" placeholder="Address" class="w-[617px] h-[175px] border border-[#A098AE]"/>
+                        </div>
+                        <div>
+                            <h3 class="text-[#303972] text-lg">Date of Birth</h3>
+                            <input type="text" placeholder="Date of birth" class="w-[617px] h-[48px] border border-[#A098AE]"/>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h3 class="text-[#303972] text-lg">Last name</h3>
+                            <input type="text" class="w-[617px] h-[48px] border border-[#A098AE]"/>
+                        </div>
+                        <div>
+                            <h3 class="text-[#303972] text-lg">Phone</h3>
+                            <input type="text" placeholder="Phone" class="w-[617px] h-[48px] border border-[#A098AE]"/>
+                        </div>
+                        <div>
+                            <h3 class="text-[#303972] text-lg">Photo</h3>
+                            <input type="image" class="w-[175px] h-[175px] border border-[#A098AE]"/>
+                        </div>
+                        <div>
+                            <h3 class="text-[#303972] text-lg">PLace of birth</h3>
+                            <input type="text" placeholder="Place of birth" class="w-[617px] h-[48px] border border-[#A098AE]"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="education">
+                <div class="w-[1475px] h-[60px] bg-[#4D44B5]">
+                    <h2 class="text-[white] text-2xl">Education</h2>
+                </div>
+                <div style="display: flex;justify-content: space-between;">
+                    <div>
+                        <div>
+                            <h3 class="text-[#303972] text-lg">University</h3>
+                            <input type="text" class="w-[617px] h-[48px] border border-[#A098AE]"/>
+                        </div>
+                        <div>
+                            <h3 class="text-[#303972] text-lg">Start & End Date</h3>
+                            <div class="w-[617px] h-[48px]">
+                                <input type="text" placeholder="Start Date" class="w-[296.5px] h-[48px] border border-[#A098AE]"/>
+                                <input type="text" placeholder="End Date" class="w-[296.5px] h-[48px] border border-[#A098AE]"/>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div>
-                            <h3>Degree</h3>
-                            <input type="text"/>
+                            <h3 class="text-[#303972] text-lg">Degree</h3>
+                            <input type="text" class="w-[617px] h-[48px] border border-[#A098AE]"/>
                         </div>
                         <div>
-                            <h3>City</h3>
-                            <input type="text" placeholder="Phone"/>
+                            <h3 class="text-[#303972] text-lg">City</h3>
+                            <input type="text" class="w-[617px] h-[48px] border border-[#A098AE]"/>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div style="display: flex;justify-content:flex-end">
-            <input type="button" value="Save as Draft"/>
-            <input type="button" value="Submit"/>
+        <div style="display: flex;justify-content:flex-end" id="button">
+            <div style="display: flex; justify-content: space-between;" class="w-[306px] h-[80px]">
+                <input type="button" value="Save as Draft" class="w-[168px] h-[60px] border border-[#4D44B5] rounded-[40px] text-[#4D44B5] text-lg"/>
+                <input type="button" value="Submit" class="w-[112px] h-[60px] bg-[#4D44B5] rounded-[40px] text-[white] text-lg"/>
+            </div>
         </div>
     </div>
     <div>
